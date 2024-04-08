@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: lightskyblue;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#flexGallery{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#flexGallery div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
